@@ -1,14 +1,15 @@
 import React from "react";
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <div className="navbar">
       <h3>Dhruv.dev</h3>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li href="#home">Home</li>
+        <li href="#about">About</li>
+        <li href="#projects">Projects</li>
+        <li href="#contact">Contact</li>
       </ul>
     </div>
   );
