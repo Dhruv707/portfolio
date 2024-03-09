@@ -9,7 +9,7 @@
 .home .container {
   margin: 0 auto;
   max-width: 107rem;
-  padding: 10rem 14rem;
+  padding: 10rem 14rem 0rem 14rem;
 }
 .content {
   align-items: center;
@@ -116,7 +116,7 @@
   cursor: pointer;
 }
 .skills ul li img {
-  height: 3.2rem;
+  height: 2.8rem;
   transition: all 0.3s ease-in-out;
-  width: 9rem;
+  width: 8rem;
 }

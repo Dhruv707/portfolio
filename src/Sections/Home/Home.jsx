@@ -9,7 +9,7 @@ function Home() {
         <div class="content">
           <div class="hero-main">
             <div class="hero-text">
-              <h1>Software Frontend Developer</h1>
+              <h1>Software/Frontend Developer</h1>
               <img src={coding} alt="waving_hand" />
               <p>
                 Hi, I'm Dhruv Khatri. A passionate Software Frontend Developer
