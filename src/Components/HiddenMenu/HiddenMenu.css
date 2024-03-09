@@ -1,0 +1,39 @@
+.hiddenMenu {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 300;
+  font-size: 1.5rem;
+}
+.hiddenMenu span {
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.hiddenMenu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+}
+.hiddenMenu ul li {
+  cursor: pointer;
+}
+.hiddenMenu ul li:hover {
+  color: rgb(46, 46, 168);
+}
+.hiddenMenu ul li a {
+  text-decoration: none;
+  color: inherit;
+}

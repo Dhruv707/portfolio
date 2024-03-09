@@ -1,10 +1,12 @@
 import React from "react";
-import "./Navbar.css";
+import "./HiddenMenu.css";
 
-function Navbar() {
+function HiddenMenu() {
   return (
-    <div className="navbar">
-      <h3>Dhruv.dev</h3>
+    <div className="hiddenMenu">
+      <span>
+        <i class="bx bx-x"></i>
+      </span>
       <ul>
         <li>
           <a href="#home">Home</a>
@@ -23,4 +25,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default HiddenMenu;
