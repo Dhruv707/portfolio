@@ -1,21 +1,19 @@
 import React from "react";
 import "./Home.css";
+import coding from "../../Components/Assets/coding.png";
 
 function Home() {
   return (
-    <div className="home">
+    <div class="home">
       <div class="container">
         <div class="content">
           <div class="hero-main">
             <div class="hero-text">
-              <h1>Software Developer</h1>
-              <img
-                src="https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png"
-                alt="waving_hand"
-              />
+              <h1>Software Frontend Developer</h1>
+              <img src={coding} alt="waving_hand" />
               <p>
-                Hi, I'm Dhruv Khatri. A passionate Software Developer based in
-                Delhi, India.
+                Hi, I'm Dhruv Khatri. A passionate Software Frontend Developer
+                based in Delhi, India.📍
               </p>
               <span>
                 <a
@@ -23,13 +21,17 @@ function Home() {
                   rel="noreferrer"
                   target="_blank"
                   href="https://www.linkedin.com/in/stefan-topalovic-dev/"
-                ></a>
+                >
+                  <i class="bx bxl-linkedin"></i>
+                </a>
                 <a
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
                   href="https://github.com/stefvndev"
-                ></a>
+                >
+                  <i class="bx bxl-github"></i>
+                </a>
               </span>
             </div>
             <div class="hero-img"></div>
@@ -46,19 +48,19 @@ function Home() {
                 </li>
                 <li>
                   <img
-                    src="https://skillicons.dev/icons?i=js,ts"
+                    src="https://skillicons.dev/icons?i=js,cpp"
                     alt="skill-icon"
                   />
                 </li>
                 <li>
                   <img
-                    src="https://skillicons.dev/icons?i=react,next"
+                    src="https://skillicons.dev/icons?i=bootstrap,scss"
                     alt="skill-icon"
                   />
                 </li>
                 <li>
                   <img
-                    src="https://skillicons.dev/icons?i=tailwind,scss"
+                    src="https://skillicons.dev/icons?i=react,"
                     alt="skill-icon"
                   />
                 </li>

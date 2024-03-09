@@ -1,5 +1,5 @@
 .navbar {
-  /* magic of background-color prevents overlap */
+  /* magic of background-color prevents overlap of navbar and home section */
   background-color: #fff;
   z-index: 200;
   display: flex;
