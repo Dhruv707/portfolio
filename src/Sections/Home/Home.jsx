@@ -20,7 +20,7 @@ function Home() {
                   aria-label="linkedin"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.linkedin.com/in/stefan-topalovic-dev/"
+                  href="https://www.linkedin.com/in/dhruvkhatri007/"
                 >
                   <i class="bx bxl-linkedin"></i>
                 </a>
@@ -28,7 +28,7 @@ function Home() {
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://github.com/stefvndev"
+                  href="https://github.com/Dhruv707"
                 >
                   <i class="bx bxl-github"></i>
                 </a>

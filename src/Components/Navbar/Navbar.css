@@ -17,6 +17,7 @@
 }
 .navbar h3 {
   margin-left: 2rem;
+  cursor: pointer;
 }
 .navbar ul {
   list-style: none;

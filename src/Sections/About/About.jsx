@@ -25,10 +25,8 @@ function About() {
             </span>
           </div>
           <div class="text-side">
-            <h3>About me</h3>
-            <h4>
-              Software Developer <br /> based in Delhi, India 📍
-            </h4>
+            <h3>About me 🚀🔥</h3>
+            <h4>Software Developer based in Delhi, India 📍</h4>
             <p>
               Hey there! I'm a passionate software developer with a bachelors
               degree from prestigious IIT Roorkee. I have expertise in C++

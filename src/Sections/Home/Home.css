@@ -66,6 +66,9 @@
   color: #2d2e32;
   font-size: 2rem;
 }
+.hero-text span a:hover {
+  color: #147efb;
+}
 .hero-img {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
