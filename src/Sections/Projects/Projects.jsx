@@ -45,9 +45,7 @@ function Projects() {
           </div>
           <div className="ecommerce">
             <div className="ecommerce-text">
-              <h4>
-                Largest University <i class="fas fa-university"></i>
-              </h4>
+              <h4>Largest University 🏛️</h4>
               <p>
                 Largest University website allows users to find the campus
                 locations, facilities, courses offered etc. The website provides
@@ -80,9 +78,7 @@ function Projects() {
           <div className="ecommerce">
             <img src={textutils} alt="ecommerce_project" />
             <div className="ecommerce-text">
-              <h4>
-                TEXT EDITOR <i class="fa-solid fa-spell-check"></i>
-              </h4>
+              <h4>TEXT EDITOR 📋</h4>
               <p>
                 Text Utils app provide various functionalities like Word
                 Counter, Character Counter, Remove extra spaces, convert to

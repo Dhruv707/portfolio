@@ -1,4 +1,5 @@
 import "./App.css";
+import HiddenMenu from "./Components/HiddenMenu/HiddenMenu";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Sections/About/About";
 import Contact from "./Sections/Contact/Contact";
@@ -10,6 +11,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <HiddenMenu />
       <Home />
       <About />
       <Projects />

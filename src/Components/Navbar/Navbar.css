@@ -8,12 +8,10 @@
   left: 0;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 100px;
   box-shadow: 0px 1px 10px rgba(102, 102, 102, 0.352);
-  z-index: 200;
-  height: auto;
-  padding: 25px 40px 25px 50px;
+  padding: 25px 30px 25px 30px;
 }
 .navbar h3 {
   margin-left: 2rem;
@@ -33,8 +31,38 @@
 .navbar ul li:hover {
   color: rgb(46, 46, 168);
 }
+.navbar ul li .mobile-menu {
+  display: none;
+}
 
 .navbar ul li a {
   text-decoration: none;
   color: inherit;
+}
+.navbar ul li .mobile-menu {
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  .navbar h3 {
+    margin-left: 0rem;
+  }
+  .navbar ul {
+    margin-right: 0rem;
+  }
+  .navbar ul li a {
+    display: none;
+  }
+  .navbar ul li .mobile-menu {
+    display: flex;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 550px) {
+  .navbar {
+    height: 60px;
+    font-size: 0.9rem;
+  }
 }

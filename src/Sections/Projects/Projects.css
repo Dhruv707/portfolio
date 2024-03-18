@@ -2,10 +2,10 @@
   background-color: #f9f9f9;
   padding: 8rem 0;
   height: auto;
+  width: 100vw;
 }
-.container {
+.projects .container {
   margin: 0 auto;
-  max-width: 87rem;
   padding: 0 10rem;
 }
 .projects-container {
@@ -26,12 +26,12 @@
   padding: 3rem 5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
 }
 .ecommerce img {
   width: 35rem;
   height: 20rem;
-  border-radius: 1rem;
   border-radius: 10px; /* Rounded corners */
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -71,4 +71,111 @@
 }
 .more_info a i {
   font-size: 1.3rem;
+}
+
+@media (max-width: 1200px) {
+  .projects {
+    padding: 4rem 0rem;
+  }
+  .projects .container {
+    margin: 0 auto;
+    padding: 0 4rem;
+  }
+  .projects-container {
+    align-items: center;
+  }
+  .container .ecommerce {
+    padding: 4rem 3rem;
+    gap: 3rem;
+  }
+  .ecommerce img {
+    width: 28rem;
+    height: 16rem;
+  }
+  .ecommerce img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .ecommerce-text {
+    gap: 0.8rem;
+  }
+  .ecommerce-text p {
+    font-size: 0.9rem;
+  }
+  .platforms {
+    font-size: 1.2rem;
+  }
+  .more_info {
+    margin-top: 1rem;
+    gap: 3rem;
+  }
+}
+@media (max-width: 850px) {
+  .projects {
+    padding: 4rem 0rem;
+  }
+  .projects .container {
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  .projects-container {
+    align-items: center;
+  }
+  .container .ecommerce {
+    padding: 3rem 0rem;
+    gap: 2rem;
+  }
+  .ecommerce img {
+    width: 22rem;
+    height: 12.5rem;
+  }
+  .ecommerce img:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  }
+  .ecommerce-text {
+    gap: 0.8rem;
+  }
+  .ecommerce-text h4 {
+    font-size: 1.1rem;
+  }
+  .ecommerce-text p {
+    font-size: 0.8rem;
+  }
+  .platforms {
+    font-size: 1rem;
+  }
+  .more_info {
+    margin-top: 0.9rem;
+    gap: 2rem;
+    font-size: 0.8rem;
+  }
+  .more_info a i {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 650px) {
+  .projects {
+    padding: 1rem 0rem;
+  }
+  .projects .container {
+    text-align: center;
+  }
+  .projects-container {
+    align-items: center;
+    gap: 0rem;
+  }
+  .projects-container h3 {
+    margin-bottom: 1rem;
+  }
+  .container .ecommerce {
+    flex-direction: column;
+    padding: 3rem 0rem;
+    gap: 2rem;
+  }
+  .container .ecommerce:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+  .ecommerce img {
+    width: 17rem;
+    height: 11rem;
+  }
 }

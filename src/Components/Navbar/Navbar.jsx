@@ -12,6 +12,12 @@ function Navbar() {
     }
   };
 
+  const openHiddenMenu = () => {
+    let hiddenMenu = document.querySelector(".hiddenMenu");
+    hiddenMenu.classList.remove("closed-menu");
+    hiddenMenu.classList.add("open-menu");
+  };
+
   return (
     <div className="navbar">
       <h3 onClick={() => scrollToSection("home")}>Dhruv.dev</h3>
@@ -35,6 +41,12 @@ function Navbar() {
           <a href="#contact" onClick={() => scrollToSection("contact")}>
             Contact
           </a>
+        </li>
+        <li>
+          <i
+            class="fa-solid fa-bars mobile-menu"
+            onClick={() => openHiddenMenu()}
+          ></i>
         </li>
       </ul>
     </div>
