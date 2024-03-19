@@ -28,8 +28,8 @@ function About() {
             <h3>About me 🚀</h3>
             <h4>Software Developer based in Delhi, India </h4>
             <p>
-              Hey there! I'm a passionate software developer with a bachelors
-              degree from prestigious IIT Roorkee. I have expertise in C++
+              Hey there! I'm a passionate software developer with a bachelor's
+              degree from the prestigious IIT Roorkee. I have expertise in C++
               programming, data structures, and algorithms, and I'm also
               well-versed in front-end development technologies such as React,
               JavaScript, HTML5, and CSS3. My goal is to craft captivating web

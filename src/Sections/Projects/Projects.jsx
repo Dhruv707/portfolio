@@ -16,9 +16,10 @@ function Projects() {
             <div className="ecommerce-text">
               <h4>E-COMMERCE 👗</h4>
               <p>
-                A e-commerce website is an online platform that allows users to
-                shop for their favourite clothing items. The website is a single
-                page application with add to cart functionality.
+                Developed an eCommerce single page application with add to cart
+                functionality, prioritizing a clean and intuitive design to
+                highlight product offerings and simplify the shopping experience
+                for users.
               </p>
               <span class="platforms">
                 <h5>React</h5>
@@ -47,9 +48,10 @@ function Projects() {
             <div className="ecommerce-text">
               <h4>Largest University 🏛️</h4>
               <p>
-                Largest University website allows users to find the campus
-                locations, facilities, courses offered etc. The website provides
-                various landing pages with a contact us page as well.
+                The website provides various landing pages and a user-friendly
+                navigation system with a collapsible menu for easy access to
+                various sections such as home, about, courses, blog, and
+                contact.
               </p>
               <span class="platforms">
                 <h5>HTML</h5>
@@ -80,9 +82,9 @@ function Projects() {
             <div className="ecommerce-text">
               <h4>TEXT EDITOR 📋</h4>
               <p>
-                Text Utils app provide various functionalities like Word
+                Text Utils app provides various functionalities like Word
                 Counter, Character Counter, Remove extra spaces, convert to
-                Uppercase, copy to clipboard etc. It also has a dark mode
+                Uppercase, copy to clipboard, etc. It also has a dark mode
                 functionality.
               </p>
               <span class="platforms">
