@@ -10,7 +10,7 @@ function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "230da9a4-d5b3-4026-ae1f-bb0ac51a3afb");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -49,7 +49,7 @@ function Contact() {
               </span>
               <div class="contact__info">
                 <h5>Mail</h5>
-                <a href="mailto:stefan.topallovic@gmail.com">
+                <a href="mailto:khatri.dhruv07@gmail.com">
                   khatri.dhruv07@gmail.com
                 </a>
               </div>
