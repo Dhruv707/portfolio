@@ -66,18 +66,21 @@ function Contact() {
               name="name"
               placeholder="Your Name"
               className="contact-input"
+              required
             />
             <input
               type="email"
               name="email"
               placeholder="Your E-mail"
               className="contact-input"
+              required
             />
             <textarea
               name="message"
               placeholder="Your Message"
               className="contact-input"
               rows="20"
+              required
             ></textarea>
 
             <button type="submit">
