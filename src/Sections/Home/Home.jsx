@@ -60,7 +60,7 @@ function Home() {
                 </li>
                 <li>
                   <img
-                    src="https://skillicons.dev/icons?i=react,"
+                    src="https://skillicons.dev/icons?i=react,redux"
                     alt="skill-icon"
                   />
                 </li>
